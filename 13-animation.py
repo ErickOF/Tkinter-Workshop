@@ -99,6 +99,7 @@ def close_window():
 animation_path = 'src/animations/animation1/frame'
 paths = [animation_path + str(i) + '.gif' for i in range(7)]
 frames = [load_image(path) for path in paths]
+print(animation_path, paths, frames)
 
 # Create animation
 animation_t = Thread(target=animate, args=(frames,))

@@ -1,5 +1,5 @@
 import tkinter as tk
-from PIL import ImageTk,Image  
+from PIL import ImageTk, Image
 
 
 # Defining some constants
@@ -55,7 +55,7 @@ canvas.place(x=0, y=0)
 img = load_image('src/imgs/background1.jpg')
 
 # Set image to canvas
-canvas.create_image(0, 0, anchor=tk.NW, image=img) 
+canvas.create_image(0, 0, anchor=tk.NW, image=img)
 
 
 # Call main loop

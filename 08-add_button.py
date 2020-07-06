@@ -31,7 +31,7 @@ WINDOW_POS_Y = int((SCREEN_HEIGHT/2) - (HEIGHT/2))
 # Set title
 window.title(TITLE)
 # Set icon
-window.iconbitmap('src/icons/py.ico')
+#window.iconbitmap('src/icons/py.ico')
 # Set geometry
 # WIDTHxHIGHT+X+Y
 window.geometry(f'{WIDTH}x{HEIGHT}+{WINDOW_POS_X}+{WINDOW_POS_Y}')
@@ -44,7 +44,7 @@ window.config(bg=BG_COLOR)
 # Add label and settings
 lbHelloWorld = tk.Label(window, text='Hello World!', bg=BG_LABEL,
                         fg=TEXT_COLOR, font=(TEXT_FONT, TEXT_SIZE),
-                        width=18, anchor=tk.W)
+                        width=21, anchor=tk.W)
 # Centering label
 lbHelloWorld.place(x=0, y=0)
 

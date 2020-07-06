@@ -17,7 +17,7 @@ window = tk.Tk()
 # Set title
 window.title(TITLE)
 # Set icon
-window.iconbitmap('src/icons/py.ico')
+#window.iconbitmap('src/icons/py.ico')
 # Set geometry
 # WIDTHxHEIGHT+X+Y
 window.geometry(f'{WIDTH}x{HEIGHT}+{WINDOW_POS_X}+{WINDOW_POS_Y}')

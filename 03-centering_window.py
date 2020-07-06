@@ -23,7 +23,7 @@ WINDOW_POS_Y = int((SCREEN_HEIGHT/2) - (HEIGHT/2))
 # Set title
 window.title(TITLE)
 # Set icon
-window.iconbitmap('src/icons/py.ico')
+#window.iconbitmap('src/icons/py.ico')
 # Set geometry
 # WIDTHxHIGHT+X+Y
 window.geometry(f'{WIDTH}x{HEIGHT}+{WINDOW_POS_X}+{WINDOW_POS_Y}')
